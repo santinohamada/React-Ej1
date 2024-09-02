@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Saludo = () => {
+const Saludo = (props) => {
     return (
         <p>
-            Hello world!
+            Hello {props.mensaje} !
         </p>
     );
 };
